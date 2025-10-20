@@ -1,0 +1,75 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Arial", "Verdana", sans-serif;
+}
+
+p,td{
+    font-size: 18px;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+a {
+    color: rgb(180, 117, 76);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    float: left;
+    margin: 0 0 5px 0;
+}
+
+.divcent{
+width: 100%;
+text-align:  center;
+}
+.center{
+display: inline-block}
+li{
+text-align: left;
+}
+
+.pbord {
+    border: 2px solid #333;
+    padding: 7px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bord {
+    border: 2px solid #333;
+    padding: 7px;
+    border-collapse: collapse;
+    margin: auto;
+}
+    .bord td,th {
+    border: 2px solid #333;
+    padding: 7px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.sign {
+    float: left; /* Выравнивание по правому краю */
+    border: 3px dashed #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 8px 2px 0; /* Отступы вокруг */
+    background: #ffffff; /* Цвет фона */ 
+   }
+   .sign figcaption {
+    margin: 0 auto 5px;
+    text-align: center;
+    font-style: italic;
+   }
+    
